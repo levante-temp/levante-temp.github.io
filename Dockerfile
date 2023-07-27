@@ -2,18 +2,32 @@ ARG JEKYLL_BASEURL=''
 
 ####################################
 
-FROM ruby:alpine as builder
+FROM alpine:3.7 as builder
 
-RUN apk add --no-cache make build-base
-RUN gem install bundler
+ENV LANGUAGE en_US.UTF-8
+ENV LANG en_US.UTF-8
+ENV LC_ALL en_US.UTF-8
+
+ENV BUILD_PACKAGES \
+    ruby \
+    ruby-dev \
+    ruby-rdoc \
+    ruby-irb \
+    gcc \
+    make \
+    libc-dev \
+    libffi-dev \
+    build-base
+
+RUN apk add --no-cache $BUILD_PACKAGES \
+    && gem install bundle
 
 WORKDIR /jekyll
-ADD Gemfile Gemfile.lock ./
+ADD . /jekyll
 RUN bundle install
 
-ADD . .
 ARG JEKYLL_BASEURL
-RUN bundle exec jekyll build --baseurl $JEKYLL_BASEURL
+RUN jekyll build --baseurl $JEKYLL_BASEURL
 
 ####################################
 
