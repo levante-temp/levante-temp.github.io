@@ -1,5 +1,5 @@
 ---
-title: About peekbank
+title: About LEVANTE
 permalink: /docs/about-us/
 ---
 
@@ -52,43 +52,32 @@ div.desc {
 }
 </style>
 
-## About Peekbank
+## About LEVANTE
 
-The Peekbank project aims to make developmental eye-tracking data more accessible for sharing and reuse. We do this by reducing the amount of preprocessing necessary to perform typical analyses and by storing data in a common, tidy format that allows for easy cross dataset comparisons. 
+The LEVANTE project aims to .... 
 
-In addition, we plan to release new dated versions periodically to facilitate reproducibility. We are also supporting an API via the <a target="_blank" href="https://langcog.github.io/peekbankr/index.html" style="color:#3399f3"><code>peebankr</code></a> R package, which allows users to access the data in Peekbank without having to write complex SQL queries.
+In addition, ....
 
 ## Publications
 
-Zettersten, M., Yurovsky, D., Xu, T. L., Uner, S., Tsui, A.S.T., Schneider, R. M., Saleh, A. N., Meylan, S. C., Marchman, V., Mankewitz, J., MacDonald, K., Long, B., Lewis, M., Kachergis, G., Handa, K., deMayo, B., Carstensen, A., Braginsky, M., Boyce, V., Bhatt, N., Bergey, C. A., & Frank, M.C. (2022). <b>Peekbank: An open, large-scale repository for developmental eye-tracking data of children’s word recognition.</b> *PsyArXiv* [[preprint]](https://psyarxiv.com/tgnzv){:target="\_blank"}
 
-Zettersten, M., Bergey, C. A., Bhatt, N., Boyce, V., Braginsky, M., Carstensen, A., deMayo, B., Kachergis, G., Lewis, M., Long, B., MacDonald, K., Mankewitz, J., Meylan, S. C., Saleh, A. N., Schneider, R. M., Tsui, A., Uner, S., Xu, T. L., Yurovsky, D., & Frank, M.C. (2021). <b>Peekbank: Exploring children’s word recognition through an open, large-scale repository for developmental eye-tracking data.</b> *Proceedings of the 43rd Annual Conference of the Cognitive Science Society*. [[preprint]](https://psyarxiv.com/ep693/){:target="\_blank"}
 
-&nbsp;
+## Citation policy
 
-<!-- ## Citation policy
+If you use the LEVANTE repository in your research, please cite:
 
-If you use the Peekbank database in your research, please cite:
+> reference to come
 
-Zettersten, M., Bergey, C. A., Bhatt, N., Boyce, V., Braginsky, M., Carstensen, A., deMayo, B., Kachergis, G., Lewis, M., Long, B., MacDonald, K., Mankewitz, J., Meylan, S. C., Saleh, A. N., Schneider, R. M., Tsui, A., Uner, S., Xu, T. L., Yurovsky, D., & Frank, M.C. (under review). Peekbank: Exploring children's word recognition through an open, large-scale repository for developmental eye-tracking data.
+Since LEVANTE is dynamic, we recommend that you list the date of download for your data in your manuscript. -->
 
-Since Peekbank is dynamic, we recommend that you list the date of download for your data in your manuscript. -->
-
-## Meet the Peekbank team
+## Meet the LEVANTE team
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="https://github.com/cbergey">
-      <img src="../../img/claire.jpg" alt="Claire">
+    <a target="_blank" href="https://web.stanford.edu/~mcfrank/">
+      <img src="../../img/mike.jpg" alt="Mike">
     </a>
-    <div class="desc">Claire Bergey</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-      <a><img src="../../img/naiti.jpeg" alt="Naiti" height="200" width="185"></a>
-    <div class="desc">Naiti Bhatt</div>
+    <div class="desc">Michael C. Frank</div>
   </div>
 </div>
 
@@ -103,130 +92,19 @@ Since Peekbank is dynamic, we recommend that you list the date of download for y
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="https://web.stanford.edu/~mcfrank/">
-      <img src="../../img/mike.jpg" alt="Mike">
+    <a target="_blank" href="https://heidibaum.github.io/">
+      <img src="../../img/heidi.jpg" alt="Heidi" height="200" width="185">
     </a>
-    <div class="desc">Michael C. Frank</div>
+    <div class="desc">Heidi Baumgartner</div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="gallery">
-      <img src="../../img/kunal.jpg" alt="Kunal Handa" height="200" width="185">
-    <div class="desc">Kunal Handa</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="http://www.kachergis.com/">
-      <img src="../../img/george.jpg" alt="George">
+    <a target="_blank" href="https://langcog.stanford.edu/people">
+      <img src="../../img/bobby.jpg" alt="Bobby">
     </a>
-    <div class="desc">George Kachergis</div>
+    <div class="desc">Bobby Sparks</div>
   </div>
 </div>
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="http://www.andrew.cmu.edu/user/mollylew/">
-      <img src="../../img/molly.jpg" alt="Molly">
-    </a>
-    <div class="desc">Molly Lewis</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://www.brialong.com/">
-      <img src="../../img/bria.jpg" alt="Bria">
-    </a>
-    <div class="desc">Bria Long</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://kemacdonald.com">
-      <img src="../../img/km_2018.jpg" alt="Kyle">
-    </a>
-    <div class="desc">Kyle MacDonald</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://github.com/JMankewitz">
-      <img src="../../img/jess.jpg" alt="Jess">
-    </a>
-    <div class="desc">Jessica Mankewitz</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://profiles.stanford.edu/virginia-marchman">
-      <img src="../../img/virginia.jpg" alt="Virginia Marchman" height="200" width="185">
-    </a>
-    <div class="desc">Virginia Marchman</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://stephanmeylan.com/">
-      <img src="../../img/stephan.jpg" alt="Stephan">
-    </a>
-    <div class="desc">Stephan Meylan</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-      <img src="../../img/annissa.jpg" alt="Annissa">
-    <div class="desc">Annissa Saleh</div>
-  </div>
-</div>
-
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://rosemschneider.github.io/">
-      <img src="../../img/rose.jpeg" alt="Rose">
-    </a>
-    <div class="desc">Rose M. Schneider</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://angelinetsui.github.io/">
-      <img src="../../img/angeline.jpg" alt="Angeline">
-    </a>
-    <div class="desc">Angeline Tsui</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-      <a><img src="../../img/sarp.jpg" alt="Sarp"  height="200" width="185"></a>
-    <div class="desc">Sarp Uner</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="http://homes.sice.indiana.edu/txu/">
-      <img src="../../img/linger.jpg" alt="Linger">
-    </a>
-    <div class="desc">Tian Linger Xu</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://mzettersten.github.io/">
-      <img src="../../img/martin.jpeg" alt="Martin">
-    </a>
-    <div class="desc">Martin Zettersten</div>
-  </div>
-</div>
