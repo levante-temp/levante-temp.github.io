@@ -5,7 +5,7 @@ description: >
   The LEVANTE Project -- Documentation and Tutorials
 lang: en-US
 
-baseurl: "/levante.github.io" # the subpath of your site, here we use "" because we are using a virtual proxy via stanford to redirect to this site
+baseurl: "/_docs/" # the subpath of your site, here we use "" because we are using a virtual proxy via stanford to redirect to this site
 url: https://levante-temp.github.io/ # the base hostname & protocol for your site
 git_address: http://github.com/levante-temp/levante-temp.github.io
 git_edit_address: http://github.com/levante-temp/levante-temp.github.io/blob/master
