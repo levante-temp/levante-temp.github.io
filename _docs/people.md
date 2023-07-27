@@ -1,6 +1,6 @@
 ---
-title: About LEVANTE
-permalink: /docs/about-us/
+title: People
+permalink: /docs/people/
 ---
 
 <style>
@@ -52,23 +52,6 @@ div.desc {
 }
 </style>
 
-## About LEVANTE
-
-The LEVANTE project aims to .... 
-
-In addition, ....
-
-## Publications
-
-
-
-## Citation policy
-
-If you use the LEVANTE repository in your research, please cite:
-
-> reference to come
-
-Since LEVANTE is dynamic, we recommend that you list the date of download for your data in your manuscript. -->
 
 ## Meet the LEVANTE team
 
