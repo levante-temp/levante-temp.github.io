@@ -6,7 +6,7 @@ description: >
   providing documentation and blog post pages.
 lang: en-US
 
-baseurl: "/levante-temp.github.io" # the subpath of your site, e.g. /blog/
+baseurl: "/_docs/" # the subpath of your site, e.g. /blog/
 url: https://levante-temp.github.io/levante-temp.github.io # the base hostname & protocol for your site
 git_address: https://github.com/levante-temp/levante-temp.github.io
 git_edit_address: https://github.com/levante-temp/levante-temp.github.io/blob/gh-pages
