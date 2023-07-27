@@ -69,6 +69,10 @@ body {
   color: #6b6d70;
 }
 
+footer a {
+  color: {{ site.footer-link-col | default: "#404040" }};
+}
+
 .post-list-container {
   li a.active {
     font-weight: bold;
