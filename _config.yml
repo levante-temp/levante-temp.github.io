@@ -46,6 +46,3 @@ collections:
     permalink: /:collection/:path/
     output: true
     
-    
-footer-link-col: "#036C9A"
-footer-hover-col: "#A34A7D"
